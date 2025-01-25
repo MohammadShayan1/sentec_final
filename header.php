@@ -3,6 +3,12 @@
 
 <head>
 	<title>SENTEC | Society For Promotion of Science, Engineering & Technology </title>
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="SENTEC" />
+<link rel="manifest" href="/images/favicon/site.webmanifest" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -38,12 +44,12 @@
 					<div class="row">
 						<div class="col">
 							<div class="d-flex">
-								<a class="d-flex align-items-center text-decoration-none text-light" href="tel:+1-541-754-3010"><svg class="bi bi-phone" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
+								<a class="d-flex align-items-center text-decoration-none text-light" href="tel:+923132017551"><svg class="bi bi-phone" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
 										<path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
 										<path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
-									</svg> <span class="ms-1">+1-541-754-3010</span></a> <a class="d-flex align-items-center ms-lg-4 text-decoration-none text-light" href="mailto:info@gmail.com"><svg class="bi bi-envelope" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
+									</svg> <span class="ms-1">+923132017551, +923312182580 </span></a> <a class="d-flex align-items-center ms-lg-4 text-decoration-none text-light" href="mailto:neduetsentec@gmail.com"><svg class="bi bi-envelope" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
 										<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
-									</svg> <span class="ms-2">info@gmail.com</span></a>
+									</svg> <span class="ms-2">neduetsentec@gmail.com</span></a>
 							</div>
 						</div>
 						<div class="col">
