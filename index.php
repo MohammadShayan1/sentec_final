@@ -8,140 +8,52 @@ $sql = "SELECT * FROM events WHERE status = 'upcoming' ORDER BY event_date ASC";
 $result = $conn->query($sql);
 ?>
 <style>
-    #accordion:before {
-        content: "";
-        width: 1px;
-        height: 80%;
-        background: #6c838f;
-        position: absolute;
-        top: 20px;
-        left: 24px;
-        bottom: 20px;
-    }
 
-    #accordion .panel {
-        border: none;
-        border-radius: 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-        margin: 0 0 12px 50px;
-        position: relative;
-    }
-
-    #accordion .panel:before {
-        content: "";
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #688e26 0%, #ff816a 100%);
-        position: absolute;
-        top: 0;
-        left: -2px;
-    }
-
-    #accordion .panel-heading {
-        padding: 0;
-        background: #fff;
-        position: relative;
-    }
-
-    #accordion .panel-heading:before {
-        content: "";
-        width: 15px;
-        height: 15px;
-        border-radius: 50px;
-        background: #fff;
-        border: 1px solid #6c838f;
-        position: absolute;
-        top: 50%;
-        left: -48px;
-        transform: translateY(-50%);
-    }
-
-    #accordion .panel-title a {
-        display: block;
-        padding: 15px 55px 15px 30px;
-        font-size: 20px;
-        font-weight: 600;
-        color: #6c838f;
-        margin: 0;
-        position: relative;
-    }
-
-    #accordion .panel-title a:before,
-    #accordion .panel-title a.collapsed:before {
-        content: "\f068";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        width: 25px;
-        height: 25px;
-        line-height: 25px;
-        border-radius: 50%;
-        font-size: 15px;
-        font-weight: normal;
-        color: #688e26;
-        text-align: center;
-        border: 1px solid #688e26;
-        position: absolute;
-        top: 50%;
-        right: 25px;
-        transform: translateY(-50%);
-        transition: all 0.5s ease 0s;
-    }
-
-    #accordion .panel-title a.collapsed:before {
-        content: "\f067";
-    }
-
-    #accordion .panel-body {
-        padding: 0 30px 15px;
-        border: none;
-        font-size: 14px;
-        color: #305275;
-        line-height: 28px;
-    }
+    
 </style>
 <section class="hero">
-    <div class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight" style="background-image:url(images/hero/1.webp);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-                    <div class="col-md-12 ftco-animate">
-                        <div class="text w-100 text-center">
-                            <h2>Best Society to Learn</h2>
-                            <h1 class="mb-3">SENTEC</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="home-slider owl-carousel js-fullheight">
+      <div class="slider-item js-fullheight" style="background-image:url(images//hero/1.webp);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Best Society to Learn</h2>
+		            <h1 class="mb-3">SENTEC</h1>
+	            </div>
+	          </div>
+	        </div>
         </div>
+      </div>
 
-        <div class="slider-item js-fullheight" style="background-image:url(images/hero/2.webp);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-                    <div class="col-md-12 ftco-animate">
-                        <div class="text w-100 text-center">
-                            <h2>Best Society to Connect</h2>
-                            <h1 class="mb-3">MPERC</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="slider-item js-fullheight" style="background-image:url(images/hero/2.webp);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Best Society to Connect</h2>
+		            <h1 class="mb-3">MPERC</h1>
+	            </div>
+	          </div>
+	        </div>
         </div>
+      </div>
 
-        <div class="slider-item js-fullheight" style="background-image:url(images/hero/3.webp);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-                    <div class="col-md-12 ftco-animate">
-                        <div class="text w-100 text-center">
-                            <h2>Best Society to Enjoy</h2>
-                            <h1 class="mb-3">OLYMPIAD</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="slider-item js-fullheight" style="background-image:url(images/hero/3.webp);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2>Best Society to Enjoy</h2>
+		            <h1 class="mb-3">OLYMPIAD</h1>
+	            </div>
+	          </div>
+	        </div>
         </div>
+      </div>
     </div>
 </section>
 <section class="text-center">
@@ -264,64 +176,43 @@ $result = $conn->query($sql);
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quidem eius cum voluptatum quasi delectus assumenda culpa.</p><a class="btn btn-lg text-white mt-3" style="background-color: #6c838f;" href="#">Contact us</a>
             </div>
             <div class="col-md-7">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-                                    Section 1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+                                <span>Q:</span> Lorem ipsum dolor sit amet consectetur?
+                            </button>
+                        </h2>
+                        <div aria-labelledby="headingOne" class="accordion-collapse collapse show" id="collapseOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem eius cum voluptatum quasi delectus assumenda culpa.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    Section 2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+                                <span>Q:</span> Lorem ipsum dolor sit amet consectetur?
+                            </button>
+                        </h2>
+                        <div aria-labelledby="headingTwo" class="accordion-collapse collapse" id="collapseTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem eius cum voluptatum quasi delectus assumenda culpa.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Section 3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+                                <span>Q:</span> Lorem ipsum dolor sit amet consectetur?
+                            </button>
+                        </h2>
+                        <div aria-labelledby="headingThree" class="accordion-collapse collapse" id="collapseThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quidem eius cum voluptatum quasi delectus assumenda culpa.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Section 4
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

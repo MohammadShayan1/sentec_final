@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mshayan/public_html/sentec.live
+    - echo "Starting deployment to $DEPLOYPATH"
+    - /bin/cp -r ./sentec/* $DEPLOYPATH
+    - echo "Deployment completed successfully!"
